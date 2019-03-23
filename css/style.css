@@ -17,10 +17,17 @@ label {
   color: white;
 }
 form {
-  background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/01/43/93560299975f128.jpg");
+  background-image: url("https://media1.giphy.com/media/OK5LK5zLFfdm/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 50px;
   width: 1000px;
   position: relative;
   left: 200px;
   border: 2px solid teal;
+}
+.button1 {
+  background-image: url("https://data.whicdn.com/images/310682775/original.gif");
+  color: white;
+  size: 50px;
 }
