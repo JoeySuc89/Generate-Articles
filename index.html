@@ -1,12 +1,61 @@
+<!-- Demo Layout for Bootstrap (with cards) -->
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Scanning Articles</title>
-</head>
-<body>
-  
-</body>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>The New York Times</title>
+
+    <!-- We need to bring in the bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid" id="topcontainer">
+      <div class="containertext">
+        The New York Times
+      </div>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="exampleInputEmail1">Search Term</label>
+        <input
+          type="email"
+          class="form-control"
+          id="term"
+          aria-describedby="emailHelp"
+          placeholder="Type Here">
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Number Of Records To Retrive</label>
+        <input
+          type="text"
+          class="form-control"
+          id="numberOfRecords"
+          placeholder="Type Here"
+        />
+      </div>
+      <div class="form-group">
+          <label for="exampleInputPassword1">Start Year (Optional)</label>
+          <input
+            type="text"
+            class="form-control"
+            id="year"
+            placeholder="Type Here"
+          />
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">End Year (Optional)</label>
+            <input
+              type="text"
+              class="form-control"
+              id="year"
+              placeholder="Type Here"
+            />
+          </div>
+      <button type="submit" class="button1 btn-lg">Submit</button>
+    </form>
+  </body>
 </html>
