@@ -29,5 +29,10 @@ form {
 .button1 {
   background-image: url("https://data.whicdn.com/images/310682775/original.gif");
   color: white;
-  size: 50px;
+}
+#middle {
+  background-image: url("https://media.giphy.com/media/JzujPK0id34qI/giphy.gif");
+}
+.button1 {
+  margin-top: 15px;
 }

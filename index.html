@@ -11,6 +11,7 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
     <div class="container-fluid" id="topcontainer">
@@ -54,8 +55,20 @@
               id="year"
               placeholder="Type Here"
             />
+            <button type="submit" class="button1 btn-lg">Submit</button>
+            <button type="clear" class="button1 btn-lg">Clear</button>
           </div>
-      <button type="submit" class="button1 btn-lg">Submit</button>
+        </form>
+          <form id="middle">
+            <div class="form-group middle">
+              <label for="exampleInputEmail1">Resaults</label>
+              <input
+                type="email"
+                class="form-control"
+                id="term"
+                aria-describedby="emailHelp"
+                placeholder="Type Here">
     </form>
+    <script src="javascript/app.js"></script>
   </body>
 </html>
