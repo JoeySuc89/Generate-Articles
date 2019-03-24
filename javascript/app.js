@@ -6,7 +6,7 @@ var searchTerm = "";
 var numResults = 0;
 var startYear = 0;
 var endYear = 0;
-
+var test = 0
 
 var queryURLBase = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=election&api-key=rtUoX0RChcNWQbZm4MbcrLrqpSCJ2MNh";
 
